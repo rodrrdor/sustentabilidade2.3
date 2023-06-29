@@ -279,7 +279,7 @@ function reset() {
     trashes = [];
     score = 0; mistakes = 0; 
     totalTrash = 1; trashTotal = 1;
-    timer = 3600;
+    timer = 1800;
 
     for (let trash = 0; trash < totalTrash; trash++)
         trashes.push(new Trash());
